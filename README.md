@@ -4,7 +4,13 @@ A native macOS app for copying recordings from
 [Blackmagic HyperDeck](https://www.blackmagicdesign.com/products/hyperdeckstudio)
 recorders to a local folder or NAS over Ethernet.
 
-![icon](https://raw.githubusercontent.com/Meppies/hyperdeck-copy-tool-releases/main/icon.png)
+<p align="center">
+  <img src="icon.png" alt="App icon" width="160">
+</p>
+
+<p align="center">
+  <img src="screenshots/02-copying.png" alt="HyperDeck Copy Tool — two recorders copying in parallel" width="800">
+</p>
 
 ## Install
 
@@ -109,6 +115,20 @@ Every row in the UI shows:
   which physical disk is currently being read.
 - Filename, size copied / total, throughput in MB/s, ETA.
 - Per-recorder running tally: number of clips done and total bytes.
+
+## Screenshots
+
+**Idle state — fresh setup, ready to receive recorder details:**
+
+<p align="center">
+  <img src="screenshots/01-idle.png" alt="Idle state — fresh setup with two empty recorder rows" width="800">
+</p>
+
+**Copying — two recorders pulling from SSD2 and SSD1 in parallel at ~325 MB/s each:**
+
+<p align="center">
+  <img src="screenshots/02-copying.png" alt="Two recorders copying in parallel; SSD bays highlighted; live log" width="800">
+</p>
 
 ## Tested with
 
